@@ -14,7 +14,7 @@ def lasso_word(word, shift_amount):
         decoded_word += decoded_letter
     return decoded_word
 
-print( "Shifting terra by 13 gives: \n" + lasso_word( "p", -2 ))
+print( "Shifting terra by 13 gives: \n" + lasso_word( "ybhvfn", 13 ))
 print( "Shifting Ncevy by 13 gives: \n" + lasso_word( "Ncevy", 13 ) )
 print( "Shifting gpvsui by 25 gives: \n" + lasso_word( "gpvsui", 25 ) )
 print( "Shifting ugflgkg by -18 gives: \n" + lasso_word( "ugflgkg", -18 ) )
